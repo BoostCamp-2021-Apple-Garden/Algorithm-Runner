@@ -36,13 +36,14 @@ void push(nptr target) {
 
 nptr pop() {
     nptr target = top;
-    target -> right = NULL;
     top = top -> right;
+    target -> right = NULL;
     return target;
 }
 
 void remove() {
     if (current -> left != NULL) current -> left -> right = current -> right;
+    else head = current -> right;
     if (current -> right != NULL) current -> right -> left = current -> left;
     
     nptr target = current;
@@ -51,25 +52,23 @@ void remove() {
     
     target -> right = NULL;
     push(target);
-    
-    cout << target -> num << endl;
-    cout << current -> num << endl;
 }
 
 void rollback() {
-    // nptr target = pop();
-    // if (target -> left == NULL) {
-    //     target -> right = head;
-    //     head = target;
-    // } else {
-    //     nptr left = target -> left;
-    //     nptr right = target -> left -> right;
-    //     if (right != NULL) {
-    //         target -> right = right;
-    //         right -> left = target;
-    //     }
-    //     left -> right = target;
-    // }
+    nptr target = pop();
+    if (target -> left == NULL) {
+        target -> right = head;
+        head -> left = target;
+        head = target;
+    } else {
+        nptr left = target -> left;
+        nptr right = target -> left -> right;
+        if (right != NULL) {
+            target -> right = right;
+            right -> left = target;
+        }
+        left -> right = target;
+    }
 }
 
 void initialize(int n, int k) {
@@ -103,10 +102,11 @@ int getNumber(string s) {
 }
 
 string solution(int n, int k, vector<string> cmd) {
+    string answer = "";
+    
     initialize(n, k);
     for (int i=0; i<cmd.size(); i++) {
         char op = cmd[i][0];
-        // cout << op << endl;
         if (op == 'U') {
             int x = getNumber(cmd[i]);
             up(x);
@@ -119,9 +119,15 @@ string solution(int n, int k, vector<string> cmd) {
             rollback();
         }
     }
-    // for (nptr p = head; p != NULL; p = p -> right) {
-    //     cout << p -> num << " ";
-    // }
-    // cout << endl;
-    return "";
+    
+    nptr p = head;
+    for (int i=0; i<n; i++) {
+        if (p != NULL && i == (p -> num)) {
+            answer += "O";
+            p = p -> right;
+        } else {
+            answer += "X";
+        }
+    }
+    return answer;
 }
