@@ -9,16 +9,12 @@ struct Process {
     int priority;
 };
 
-bool compare(Process a, Process b) {
-    if (a.priority == b.priority) {
-        return a.id > b.id;
-    }
-    return a.priority < b.priority;
-}
-
 struct cmp {
     bool operator()(Process a, Process b) {
-        return compare(a, b);
+        if (a.priority == b.priority) {
+            return a.id > b.id;
+        }
+        return a.priority < b.priority;
     }
 };
 
