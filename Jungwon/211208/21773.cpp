@@ -40,24 +40,10 @@ int main(void) {
         if (pq.empty()) break;
         Process p = pq.top();
         pq.pop();
-        cout << p.id << endl;
+        printf("%d\n", p.id);
         p.priority--;
         p.time--;
         if (p.time > 0) pq.push(p);
     }
-    // int i=1;
-    // while (true) {
-    //     if (pq.empty()) break;
-    //     Process p = pq.top();
-    //     pq.pop();
-    //     while (p.time>0 && compare(pq.top(), p) && i<=T) {
-    //         cout << p.id << endl;
-    //         p.priority--;
-    //         p.time--;
-    //         i++;
-    //     }
-    //     if (i>T) break;
-    //     if (p.time>0) pq.push(p);
-    // }
     return 0;
 }
