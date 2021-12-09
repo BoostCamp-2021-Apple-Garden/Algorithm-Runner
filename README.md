@@ -22,6 +22,6 @@
 |문제|난이도|
 |:--|:-:|
 |[16922: 로마 숫자 만들기](https://www.acmicpc.net/problem/16922)|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20">|
-|[17863: 공주님을 구해라!](https://www.acmicpc.net/problem/21773)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+|[17863: 공주님을 구해라!](https://www.acmicpc.net/problem/17836)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[[2021 카카오 공채] 광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)|Level 3|
 |[5568: 카드 놓기](https://www.acmicpc.net/problem/5568)|<img src="https://static.solved.ac/tier_small/6.svg" width="20" height="20">|
