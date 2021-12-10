@@ -68,24 +68,20 @@ let fio = FastIO()
 let S = Array(fio.readString())
 var answer = 0
 var alphaCount = [Character:Int]()
-
+ 
 for char in S { alphaCount.updateValue((alphaCount[char] ?? 0) + 1, forKey: char) }
 let alphas = [Character](alphaCount.keys)
 
 func solution() -> Int {
-    func makeCombination(combination: [Character] = []) {
-        var combination = combination
-        if combination.count == S.count {
+    func makeCombination(lastAlpha: Character = Character("."), length: Int = 0) {
+        if length == S.count {
             answer += 1
             return
         }
         for alpha in alphas {
-            if (!combination.isEmpty && combination.last! == alpha)
-                || alphaCount[alpha]! <= 0 { continue }
+            if lastAlpha == alpha || alphaCount[alpha]! <= 0 { continue }
             alphaCount.updateValue(alphaCount[alpha]! - 1, forKey: alpha)
-            combination.append(alpha)
-            makeCombination(combination: combination)
-            combination.removeLast()
+            makeCombination(lastAlpha: alpha, length: length + 1)
             alphaCount.updateValue(alphaCount[alpha]! + 1, forKey: alpha)
         }
     }
