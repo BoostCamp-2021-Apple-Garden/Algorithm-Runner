@@ -25,3 +25,11 @@
 |[17863: 공주님을 구해라!](https://www.acmicpc.net/problem/17836)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[[2021 카카오 공채] 광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)|Level 3|
 |[5568: 카드 놓기](https://www.acmicpc.net/problem/5568)|<img src="https://static.solved.ac/tier_small/6.svg" width="20" height="20">|
+
+## 2021.12.10
+|문제|난이도|
+|:--|:-:|
+|[1342: 행운의 문자열](https://www.acmicpc.net/problem/1342)|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20">|
+|[2467: 용액](https://www.acmicpc.net/problem/2467)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+|[풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)|Level 3|
+|[15903: 카드 합체 놀이](https://www.acmicpc.net/problem/15903)|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20">|
