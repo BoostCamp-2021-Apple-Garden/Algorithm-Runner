@@ -7,7 +7,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
-|12|13|14|15|16|17|18|
+|12|[13](#20211213)|14|15|16|17|18|
 |19|20|21|22|23|24|25|
 |26|27|28|29|30|31||
 
@@ -42,3 +42,11 @@
 |[2467: 용액](https://www.acmicpc.net/problem/2467)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)|Level 3|
 |[15903: 카드 합체 놀이](https://www.acmicpc.net/problem/15903)|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20">|
+
+## 2021.12.13
+|문제|난이도|
+|:--|:-:|
+|[1411: 비슷한 단어](https://www.acmicpc.net/problem/1411)|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20">|
+|[1660: 캡틴 이다솜](https://www.acmicpc.net/problem/1660)|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20">|
+|[2831: 댄스 파티](https://www.acmicpc.net/problem/2831)|<img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20">|
+|[피로도](https://programmers.co.kr/learn/courses/30/lessons/87946)|Level 2|
