@@ -91,22 +91,37 @@ for _ in 0..<n {
 }
 
 var answer = 0
+// 첫번째 주사위를 기준으로 6방향 다 돌려본다.
 for bottom in 0..<6 {
-    var nowBottom = bottom
-    var nowUpValue = dices[0][nowBottom.oppositeSide]
     var tempDices = dices
+    
+    // 바닥의 인덱스, 반대편의 주사위 값을 저장
+    var nowBottom = bottom
+    var nowUpValue = tempDices[0][nowBottom.oppositeSide]
+    
+    // 바닥과 반대편의 주사위 값을 최소값으로 만든다.
     tempDices[0][nowBottom] = -1
     tempDices[0][nowBottom.oppositeSide] = -1
+    
+    // 첫 주사위의 옆면의 있는 값들 중 최대 값 뽑기.
     var sum = tempDices[0].max()!
+    
+    // 두 번째 주사위부터 쌓기 시작
     for dice in tempDices[1...]{
+        var dice = dice
+        // 바닥면은 이전 주사위의 윗면의 주사위 값과 일치하는 면이어야 함
         nowBottom = dice.firstIndex(where: { $0 == nowUpValue })!
-        var tempDice = dice
-        
-        tempDice[nowBottom] = -1
+        // 윗면 주사위 값 저장
         nowUpValue = dice[nowBottom.oppositeSide]
-        tempDice[nowBottom.oppositeSide] = -1
-        sum += tempDice.max()!
+        
+        // 바닥면과 윗면의 값을 최소값으로 만든다.
+        dice[nowBottom] = -1
+        dice[nowBottom.oppositeSide] = -1
+        
+        // 옆면 중 최대 값을 뽑아 더한다.
+        sum += dice.max()!
     }
+    // 옆면 최대값들의 합으로 정답을 갱신.
     answer = max(answer, sum)
 }
 
