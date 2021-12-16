@@ -7,7 +7,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
-|12|[13](#20211213)|[14](#20211214)|[15](#20211215)|16|17|18|
+|12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|17|18|
 |19|20|21|22|23|24|25|
 |26|27|28|29|30|31||
 
@@ -64,3 +64,10 @@
 |[Two Characters](https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=true)|Easy|
 |[Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=true)|Medium|
 |[16931: 겉넓이 구하기](https://www.acmicpc.net/problem/16931)|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20">|
+
+## 2021.12.16
+|문제|난이도|
+|:--|:-:|
+|[14225: 부분수열의 합](https://www.acmicpc.net/problem/14225)|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20">|
+|[14719: 빗물](https://www.acmicpc.net/problem/14719)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+|[숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987)|Level 3|
