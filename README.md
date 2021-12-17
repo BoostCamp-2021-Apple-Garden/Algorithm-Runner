@@ -7,7 +7,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
-|12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|17|18|
+|12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|[17](#20211217)|18|
 |19|20|21|22|23|24|25|
 |26|27|28|29|30|31||
 
@@ -71,3 +71,11 @@
 |[14225: 부분수열의 합](https://www.acmicpc.net/problem/14225)|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20">|
 |[14719: 빗물](https://www.acmicpc.net/problem/14719)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987)|Level 3|
+
+## 2021.12.17
+|문제|난이도|
+|:--|:-:|
+|[16918: 봄버맨](https://www.acmicpc.net/problem/16918)|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20">|
+|[23352: 방탈출](https://www.acmicpc.net/problem/23352)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+|[점심은 햄버거](https://level.goorm.io/exam/43164/%EC%A0%90%EC%8B%AC%EC%9D%80-%ED%96%84%EB%B2%84%EA%B1%B0/quiz/1)|⭐️⭐️⭐️|
+|[좋은 수열](https://level.goorm.io/exam/43210/%EC%A2%8B%EC%9D%80-%EC%88%98%EC%97%B4/quiz/1)|⭐️⭐️⭐️⭐️|
