@@ -10,17 +10,14 @@ def isGood(string):
 			return False
 	return True
 
-answer = "-1"
+answer = "9" * input
 def makeSequence(current):
 	global answer
 	
 	if not isGood(current):
 		return
 	if len(current) == input:
-		if answer == "-1":
-			answer = current
-		else:
-			answer = min(answer, current)
+		answer = min(answer, current)
 		return
 	
 	if current[-1] != "1":
