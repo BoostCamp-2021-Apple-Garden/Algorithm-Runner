@@ -80,7 +80,7 @@
 |[점심은 햄버거](https://level.goorm.io/exam/43164/%EC%A0%90%EC%8B%AC%EC%9D%80-%ED%96%84%EB%B2%84%EA%B1%B0/quiz/1)|⭐️⭐️⭐️|
 |[좋은 수열](https://level.goorm.io/exam/43210/%EC%A2%8B%EC%9D%80-%EC%88%98%EC%97%B4/quiz/1)|⭐️⭐️⭐️⭐️|
 
-##2021.12.20
+## 2021.12.20
 |문제|난이도|
 |:--|:-:|
 |[14562: 태권왕](https://www.acmicpc.net/problem/14562)|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20">|
