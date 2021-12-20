@@ -8,7 +8,7 @@
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
 |12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|[17](#20211217)|18|
-|19|20|21|22|23|24|25|
+|19|[20](#20211220)|21|22|23|24|25|
 |26|27|28|29|30|31||
 
 ## 2021.12.07
@@ -79,3 +79,10 @@
 |[23352: 방탈출](https://www.acmicpc.net/problem/23352)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[점심은 햄버거](https://level.goorm.io/exam/43164/%EC%A0%90%EC%8B%AC%EC%9D%80-%ED%96%84%EB%B2%84%EA%B1%B0/quiz/1)|⭐️⭐️⭐️|
 |[좋은 수열](https://level.goorm.io/exam/43210/%EC%A2%8B%EC%9D%80-%EC%88%98%EC%97%B4/quiz/1)|⭐️⭐️⭐️⭐️|
+
+##2021.12.20
+|문제|난이도|
+|:--|:-:|
+|[14562: 태권왕](https://www.acmicpc.net/problem/14562)|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20">|
+|[14226: 이모티콘](https://www.acmicpc.net/problem/14226)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+|[6568: 귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다](https://www.acmicpc.net/problem/6568)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
