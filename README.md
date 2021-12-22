@@ -8,7 +8,7 @@
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
 |12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|[17](#20211217)|18|
-|19|[20](#20211220)|21|22|23|24|25|
+|19|[20](#20211220)|21|[22](#20211222)|23|24|25|
 |26|27|28|29|30|31||
 
 ## 2021.12.07
@@ -86,3 +86,10 @@
 |[14562: 태권왕](https://www.acmicpc.net/problem/14562)|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20">|
 |[14226: 이모티콘](https://www.acmicpc.net/problem/14226)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
 |[6568: 귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다](https://www.acmicpc.net/problem/6568)|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20">|
+
+## 2021.12.22
+|문제|난이도|
+|:--|:-:|
+|[6146: 신아를 만나러](https://www.acmicpc.net/problem/6146)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
+|[22869: 징검다리 건너기(small)](https://www.acmicpc.net/problem/22869)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
+|[23294: 웹 브라우저](https://www.acmicpc.net/problem/23294)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="20" height="20">|
