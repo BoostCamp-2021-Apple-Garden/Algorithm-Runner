@@ -8,7 +8,7 @@
 ||||1|2|3|4|
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
 |12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|[17](#20211217)|18|
-|19|[20](#20211220)|21|[22](#20211222)|[23](#20211223)|24|25|
+|19|[20](#20211220)|21|[22](#20211222)|[23](#20211223)|[24](#20211224)|25|
 |26|27|28|29|30|31||
 
 ## 2021.12.07
@@ -100,3 +100,9 @@
 |[16943: 숫자 재배치](https://www.acmicpc.net/problem/16943)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
 |[1283: 단축키 지정](https://www.acmicpc.net/problem/1283)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">|
 |[2257: 화학식량](https://www.acmicpc.net/problem/2257)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">|
+
+## 2021.12.24
+|문제|난이도|
+|:--|:-:|
+|[10971: 외판원 순회2](https://www.acmicpc.net/problem/10971)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">|
+|[1719: 택배](https://www.acmicpc.net/problem/1719)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="20" height="20">|
