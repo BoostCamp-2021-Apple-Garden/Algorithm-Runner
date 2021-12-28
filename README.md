@@ -9,7 +9,7 @@
 |5|6|[7](#20211207)|[8](#20211208)|[9](#20211209)|[10](#20211210)|11|
 |12|[13](#20211213)|[14](#20211214)|[15](#20211215)|[16](#20211216)|[17](#20211217)|18|
 |19|[20](#20211220)|21|[22](#20211222)|[23](#20211223)|[24](#20211224)|25|
-|26|[27](#20211227)|28|29|30|31||
+|26|[27](#20211227)|[28](#20211228)|29|30|31||
 
 ## 2021.12.07
 |문제|난이도|
@@ -113,3 +113,10 @@
 |[17609: 회문](https://www.acmicpc.net/problem/17609)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
 |[3933: 라그랑주의 네 제곱수 정리](https://www.acmicpc.net/problem/3933)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">|
 |[3107: IPv6](https://www.acmicpc.net/problem/3107)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">|
+
+## 2021.12.28
+|문제|난이도|
+|:--|:-:|
+|[1052: 물병](https://www.acmicpc.net/problem/1052)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
+|[2230: 수 고르기](https://www.acmicpc.net/problem/2230)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">|
+|[7490: 0 만들기](https://www.acmicpc.net/problem/7490)|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">|
