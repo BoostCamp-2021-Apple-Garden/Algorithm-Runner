@@ -1,11 +1,7 @@
 import sys
 input = sys.stdin.readline
-from functools import reduce
 
 s = str(input().strip())
-
-def multiply(arr):
-    return reduce(lambda x, y: x * y, arr)
 
 d = {'H': 1, 'C': 12, 'O': 16}
 l = []
